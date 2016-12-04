@@ -14,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
     # check if the matrix is same as before
     if(!identical(mat,a)) {
       mat <<- a
-      inv <- NULL
+      inv <<- NULL
     }
   }
   
